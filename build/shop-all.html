@@ -28,15 +28,15 @@
 								<a class="nav__link" href="./">Главная</a>
 							</li>
 							<li class="nav__item">
-								<a class="nav__link" href="./../shop-all.html">Магазин</a>
+								<a class="nav__link" href="./shop-all.html">Магазин</a>
 								<span class="nav__arrow arrow"></span>
 							</li>
 							<li class="nav__item">
-								<a class="nav__link" href="./../about-us.html">О&#160;бренде</a>
+								<a class="nav__link" href="./about-us.html">О&#160;бренде</a>
 								<span class="nav__arrow arrow"></span>
 							</li>
 							<li class="nav__item">
-								<a class="nav__link" href="./../contacts.html">Контакты</a>
+								<a class="nav__link" href="./contacts.html">Контакты</a>
 							</li>
 						</ul>
 					</nav>
@@ -49,7 +49,7 @@
 							<span>+7&#160;495&#160;823-54-12</span>
 						</a>
 						<div class="header-top__user flex-block">
-							<a href="./../cart.html" class="cart">
+							<a href="./cart.html" class="cart">
 								<svg class="icon icon--shopping-bag">
 									<use href="./img/svgsprite/sprite.symbol.svg#shopping-bag"></use>
 								</svg>
@@ -76,11 +76,11 @@
 							</div>
 
 							<ul id="mobile-nav__list" class="mobile-nav__list">
-								<li class="mobile-nav__item"><a class="mobile-nav__link" href="/">Главная</a></li>
-								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./../shop-all.html">Магазин</a></li>
-								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./../about-us.html">О&#160;бренде</a></li>
-								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./../contacts.html">Контакты</a></li>
-								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./../cart.html">Корзина</a></li>
+								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./">Главная</a></li>
+								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./shop-all.html">Магазин</a></li>
+								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./about-us.html">О&#160;бренде</a></li>
+								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./contacts.html">Контакты</a></li>
+								<li class="mobile-nav__item"><a class="mobile-nav__link" href="./cart.html">Корзина</a></li>
 							</ul>
 						</div>
 					</div>
@@ -107,1108 +107,236 @@
 								<p>Показано: <span>9</span> из&#160;<span>12</span> товаров</p>
 							</div>
 						</div>
+						<div class="products__category">
+							<ul class="category-list">
+								<li class="category-list__item">
+									<a class="category-list__link category-list__link--active" href="#">Все</a>
+								</li>
+								<li class="category-list__item">
+									<a class="category-list__link" href="#">Пальто</a>
+								</li>
+								<li class="category-list__item">
+									<a class="category-list__link" href="#">Свитшоты</a>
+								</li>
+								<li class="category-list__item">
+									<a class="category-list__link" href="#">Кардиганы</a>
+								</li>
+								<li class="category-list__item">
+									<a class="category-list__link" href="#">Толстовки</a>
+								</li>
+							</ul>
+						</div>
 						<div class="products__cards">
-							<div class="tab products-tab" data-control="tab">
-								<div class="tab__nav products-tab__nav" data-control="tab-nav">
-									<button class="tab__nav-button products-tab__nav-button active" data-control="tab-button">Все</button>
-									<button class="tab__nav-button products-tab__nav-button" data-control="tab-button">Пальто</button>
-									<button class="tab__nav-button products-tab__nav-button" data-control="tab-button">Свитшоты</button>
-									<button class="tab__nav-button products-tab__nav-button" data-control="tab-button">Кардиганы</button>
-									<button class="tab__nav-button products-tab__nav-button" data-control="tab-button">Толстовки</button>
-								</div>
-								<div class="tab__content products-tab__content">
-									<div class="tab__block products-tab__block active" data-control="tab-block">
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+							<ul class="cards-list">
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
 											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
 											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+								<li>
+									<a href="./shop-single.html" class="card">
+										<div class="card__img">
+											<svg class="icon icon--arrow-right">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+											</svg>
 
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-									</div>
-									<div class="tab__block products-tab__block" data-control="tab-block ">
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-									</div>
-									<div class="tab__block products-tab__block" data-control="tab-block">
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-									</div>
-									<div class="tab__block products-tab__block" data-control="tab-block">
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-									</div>
-									<div class="tab__block products-tab__block" data-control="tab-block">
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-										<a href="shop-single.html" class="card">
-											<div class="card__img">
-												<svg class="icon icon--arrow-right">
-													<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
-												</svg>
-
-												<picture>
-													<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="" />
-												</picture>
-											</div>
-											<!-- price -->
-											<div class="card__desc">
-												<div class="card__title">
-													<h4 class="h4">Футболка USA</h4>
-												</div>
-												<div class="card__price">
-													<span>$229</span>
-													<span>$129</span>
-												</div>
-											</div>
-											<!--// price -->
-										</a>
-									</div>
-								</div>
-							</div>
+											<picture>
+												<source srcset="./img/arrival/01.webp 1x, ./img/arrival/01@2x.webp 2x" type="image/webp" />
+												<source srcset="./img/arrival/01.jpg 1x, ./img/arrival/01@2x.jpg 2x" type="image/jpeg" />
+												<img src="./img/arrival/01.jpg" srcset="./img/arrival/01@2x.jpg" alt="Футболка USA" />
+											</picture>
+										</div>
+										<!-- price -->
+										<div class="card__desc">
+											<div class="card__title">
+												<h4 class="h4">Футболка USA</h4>
+											</div>
+											<div class="card__price">
+												<span>$229</span>
+												<span>$129</span>
+											</div>
+										</div>
+										<!--// price -->
+									</a>
+								</li>
+							</ul>
 						</div>
 						<div class="products__pages-shown">
 							<div class="pages-shown">
@@ -1266,7 +394,7 @@
 								<a class="nav-list__link" href="./">Главная</a>
 							</li>
 							<li class="nav-list__item">
-								<a class="nav-list__link nav-list__inner-nav" href="./../shop-all.html">Магазин</a>
+								<a class="nav-list__link nav-list__inner-nav" href="./shop-all.html">Магазин</a>
 								<div class="inner-nav-wrapper">
 									<ul class="inner-nav__list">
 										<li class="inner-nav__item">
@@ -1285,10 +413,10 @@
 								</div>
 							</li>
 							<li class="nav-list__item">
-								<a class="nav-list__link" href="./../about-us.html">О&#160;бренде</a>
+								<a class="nav-list__link" href="./about-us.html">О&#160;бренде</a>
 							</li>
 							<li class="nav-list__item">
-								<a class="nav-list__link" href="./../cart.html">Контакты</a>
+								<a class="nav-list__link" href="./contacts.html">Контакты</a>
 							</li>
 						</ul>
 					</div>

@@ -9,10 +9,16 @@ import headerTopChange from './modules/header-bg-change.js';
 headerTopChange();
 mobileNav();
 
-if (window.location.href.indexOf('index.html') > -1) {
-  swiperHeader();
-  swiperAbout();
-}
+
+
+if ( window.location.href.indexOf('index.html') > -1 
+      || (window.location.href === window.location.origin + '/') 
+      || (window.location.href === window.location.origin)
+    ) 
+    {
+      swiperHeader();
+      swiperAbout();
+    }
 
 if (window.location.href.indexOf('shop-single.html') > -1) {
   swiperProduct();

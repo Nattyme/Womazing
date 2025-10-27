@@ -1,18 +1,9 @@
-.products-tab__nav {
-  margin-bottom: 65px;
-
+.category-list {
+  display: flex;
   column-gap: 10px;
-  justify-content: flex-start;
 }
 
-.products-tab__block {
-  justify-content: space-between;
-  flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 40px;
-}
-
-.products-tab__nav-button {
+.category-list__link {
   padding: 19px 65px;
 
   min-width: 162px;
@@ -30,7 +21,7 @@
   }
 }
 
-.products-tab__nav-button.active {
+.category-list__link.category-list__link--active {
   background-color: #000;
   color: #fff;
 }

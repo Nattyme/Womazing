@@ -140,13 +140,13 @@
     margin-bottom: 50px;
   }
 
-  .products-tab__block {
-    column-gap: 15px;
+  .products__category {
+    margin-bottom: 40px;
   }
 
-  .products-tab__nav {
-    margin-bottom: 40px;
-
+  .category-list {
+    flex-wrap: wrap;
+    row-gap: 20px;
     justify-content: space-between;
   }
 
