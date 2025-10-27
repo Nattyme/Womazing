@@ -1,4 +1,4 @@
-# A multi page site for shop **Womazingl**. [Figma design.](https://www.figma.com/community/file/1233626946001279400)
+# A multi page site for shop **Womazing**. [Figma design.](https://www.figma.com/community/file/1233626946001279400)
 
 <hr>
 
