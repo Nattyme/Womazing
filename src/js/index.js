@@ -19,6 +19,8 @@ if (filename === '' || filename === 'index.html') {
     swiperAbout();
 }
 
+
+
 if (window.location.href.indexOf('shop-single.html') > -1) {
   swiperProduct();
   fancyBox();
