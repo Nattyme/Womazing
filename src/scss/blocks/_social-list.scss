@@ -1,3 +1,11 @@
 .social-list {
   height: 23px;
+
+  svg {
+    transition: fill 0.2s ease;
+  }
+}
+
+.social-list a:hover svg {
+  fill: var(--accent);
 }

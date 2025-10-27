@@ -6,6 +6,15 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 1.4;
+
+  a {
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--accent);
+  }
+
 }
 
 .footer__content {
