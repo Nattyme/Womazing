@@ -260,6 +260,10 @@
   .form-input-wrapper {
     padding-right: unset;
   }
+  
+  .form-contact {
+      max-width: 290px;
+  }
 
   .form-textarea {
     height: 100px;
@@ -267,7 +271,7 @@
 
   .notification {
     padding: 20px 20px;
-    width: 345px;
+    max-width: 290px;
   }
 
   /* Footer*/
