@@ -3,7 +3,7 @@
 	--time: 0.1s;
 
 	--width: 40px;
-	--height: 30px;
+	--height: 40px;
 
 	--line-height: 4px;
 	--spacing: 6px;
@@ -19,12 +19,11 @@
 	height: calc(var(--line-height) * 3 + var(--spacing) * 2);
 	width: var(--width);
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: inline-block;
 }
 
 .nav-icon {
+  display: inline-block;
 	position: relative;
 	width: var(--width);
 	height: var(--line-height);
@@ -82,11 +81,11 @@
 
 .mobile-nav-btn {
 	z-index: 999;
-	// display: none;
+	display: none;
 }
 
-// @media (max-width: 1000px) {
-// 	.mobile-nav-btn {
-// 		display: block;
-// 	}
-// }
+@media (max-width: 900px) {
+	.mobile-nav-btn {
+		display: block;
+	}
+}

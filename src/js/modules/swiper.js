@@ -3,6 +3,7 @@ function swiperHeader () {
   const swiperHeaderText = new Swiper(".swiperHeaderText", {
     slidesPerView: 1,
     speed: 2000,
+    autoplay: true,
     loop: true,
     watchSlidesProgress: false,
     pagination: {
@@ -22,9 +23,6 @@ function swiperHeader () {
     fadeEffect: {           // added
       crossFade: true     // added(resolve the overlapping of the slides)
     },  
-    
-
-  
   });
 
   swiperHeaderText.controller.control = swiperHeaderImg;

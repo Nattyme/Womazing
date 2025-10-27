@@ -1,6 +1,24 @@
+<!--  Nav icon -->
+
+<button class="mobile-nav-btn">
+  <span class="nav-icon"></span>
+</button>
+
+
+<!-- Mobile menu -->
 <div class="mobile-nav">
-	<ul class="mobile-nav__list">
-		<li><a href="index.html">Главная</a></li>
-		<li><a href="docs.html">Документация</a></li>
-	</ul>
+  <div class="mobile-nav__list-wrapper ">
+    <div class="mobile-nav__logo-wrapper">
+      @@include('./_logo.html')
+    </div>
+
+    <ul id="mobile-nav__list" class="mobile-nav__list">
+      <li class="mobile-nav__item"><a class="mobile-nav__link" href="/">Главная</a></li>
+      <li class="mobile-nav__item"><a class="mobile-nav__link" href="./../shop-all.html">Магазин</a></li>
+      <li class="mobile-nav__item"><a class="mobile-nav__link" href="./../about-us.html">О бренде</a></li>
+      <li class="mobile-nav__item"><a class="mobile-nav__link" href="./../contacts.html">Контакты</a></li>
+    </ul>
+
+  </div>
+  
 </div>

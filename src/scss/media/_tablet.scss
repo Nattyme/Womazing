@@ -31,6 +31,14 @@
     padding-bottom: 30px;
   }
 
+  .nav, .header-top__cta, .header-top__user {
+    display: none;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
   .header__phone {
     display: none;
   }
@@ -45,7 +53,7 @@
   }
 
   .swiper.swiperHeaderImg {
-    width: 350px;
+    width: 250px;
     height: auto;
   }
 
