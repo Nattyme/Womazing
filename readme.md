@@ -1,25 +1,27 @@
-# Gulp сборка для верстки сайтов от [ВебКадеми](https://webcademy.ru)
+# A multi page site for shop **Womazingl**. [Figma design.](https://www.figma.com/community/file/1233626946001279400)
 
-- HTML,
-- SCSS,
-- Gulp,
-- JS
+<hr>
 
-Документация и примеры использования внутри.
+**It has:**
+- feedback and order forms,
+- swipers,
+- a mobile adaptation “desktop-first", mobile navigation, graphics optimization,
+- 8 pages in total
+  
 
-Установить зависимости:
-```
-npm i
-```
+**Technology:** 
+- HTML, 
+- SCSS, 
+- JS, 
+- GULP
 
-Зпустить в режиме разработки:
-```
-gulp
-```
+**Libs:** 
+- Swiper,
+- Fancybox
 
-Собрать версию для публикации:
-```
-gulp docs
-```
+[Watch demo](https://nattyme.github.io/womazing/)
 
-[Смотреть демо](https://user.github.io/repo/)
+<hr>
+
+![readme-cover](https://github.com/user-attachments/assets/8e70ddf0-e430-4302-92b2-83d3773deeac)
+
