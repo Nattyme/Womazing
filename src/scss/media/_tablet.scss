@@ -248,4 +248,19 @@
     row-gap: 40px;
   }
 
+  /* Order */
+  .form-order__table-row {
+    column-gap: 100px;
+  }
+
+  .form-order__total--button-fake::before {
+    width: 90%;
+  }
+
+  /* Created order */
+  .order__row {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
 }

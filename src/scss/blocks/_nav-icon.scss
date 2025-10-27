@@ -88,4 +88,11 @@
 	.mobile-nav-btn {
 		display: block;
 	}
+  
+	.mobile-nav-btn--active {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+	}
 }
+

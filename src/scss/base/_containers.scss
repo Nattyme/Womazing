@@ -13,7 +13,7 @@
 	max-width: var(--container-width);
 	width: 100%;
 
-    /* Tablet - big*/
+  /* Tablet - big*/
   @media (max-width: 1200px) {
     width: 900px;
   }
@@ -26,6 +26,14 @@
   /* Mobile */
   @media (max-width: 767px) {
       width: 320px;
+  }
+}
+
+.container--header {
+   /* Mobile */
+  @media (max-width: 767px) {
+    width: 100%;
+    max-width: 767px;
   }
 }
 

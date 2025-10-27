@@ -12,9 +12,17 @@
     font-size: 16px;
   }
 
+  .inner-page {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
   .section-title {
-    margin-bottom: 40px;
-    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .breadcrumbs {
+    line-height: 1.5;
   }
 
   .breadcrumb {
@@ -74,6 +82,15 @@
   .main-page .header-top.header-top--gradient-bg, .header {
     background: unset;
   }
+
+  .page-shopping-cart__header, 
+  .page-order__header,
+  .contacts__header,
+  .shop-header,
+  .order__header {
+    margin-bottom: 84px;
+  }
+ 
 
   /* Header */
   .header__button {
@@ -318,10 +335,6 @@
     padding-top: 30px;
   }
 
-  .shop-header {
-    margin-bottom: 30px;
-  }
-
   .products__pages-shown {
     margin-bottom: 25px;
   }
@@ -378,20 +391,6 @@
    /*****************************/
   /******* CART *******/
   /***************************/
-
-  .inner-page {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  .page-shopping-cart__header {
-    margin-bottom: 100px;
-  }
- 
-  .section-title {
-    margin-bottom: 20px;
-  }
-
   .page-shopping-cart__heading {
     padding-bottom: 10px;
     font-size: 14px;
@@ -487,5 +486,33 @@
       padding-left: 5px;
       padding-right: 5px;
   }
+
+  /* Order */
+  .form-order {
+    grid-template-columns: 1fr;
+  }
+
+  .form-order__table-row {
+    line-height: 1.5;
+  }
+
+  /* Order cerated */ 
+  .order__notification {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .order__img {
+    margin-right: unset; 
+  }
+
+  .order__text {
+      text-align: center;
+  }
+
+  .icon--success {
+      width: 50px;
+      height: 50px;
+  }
+    
 
 }

@@ -26,8 +26,8 @@
 
 .mobile-nav__list-wrapper {
   margin-left: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   height: 100%;
   width: 60%;
   background-color: #fff;
@@ -62,4 +62,32 @@
     color: var(--accent);
     background-color: #f2f1f1;
   }
+}
+
+@media (max-width: 767px) {
+    .mobile-nav__logo-wrapper {
+        margin-top: 100px;
+        padding-left: unset;
+    }
+
+    .mobile-nav__logo-wrapper .logo {
+      margin-left: auto;
+      margin-right: auto;
+      flex-direction: column;
+      row-gap: 20px;
+      height: auto;
+
+      .icon--logo {
+          width: 32px;
+          height: 32px;
+      }
+    }
+
+    .mobile-nav__list-wrapper {
+      width: 100%;
+    }
+
+    .mobile-nav__list {
+      text-align: center;
+    }
 }
