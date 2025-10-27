@@ -11,14 +11,12 @@ mobileNav();
 
 
 
-if ( window.location.href.indexOf('index.html') > -1 
-      || (window.location.href === window.location.origin + '/') 
-      || (window.location.href === window.location.origin)
-    ) 
-    {
-      swiperHeader();
-      swiperAbout();
-    }
+const path = window.location.pathname;
+if (path.endsWith('index.html') || path === '/' || path === '/womazing/') {
+    swiperHeader();
+    swiperAbout();
+}
+
 
 if (window.location.href.indexOf('shop-single.html') > -1) {
   swiperProduct();
