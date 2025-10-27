@@ -25,4 +25,5 @@ a {
 .inner-page {
   padding-top: 190px;
   padding-bottom: 130px;
+  flex-grow: 1; // sticky footer
 }

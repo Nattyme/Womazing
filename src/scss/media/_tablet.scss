@@ -1,5 +1,9 @@
 /* Tablet */
 @media (max-width: 900px) {
+  .h1 {
+    font-size: 35px;
+  }
+
   .h2 {
     font-size: 32px;
   }
@@ -43,6 +47,10 @@
   .swiper.swiperHeaderImg {
     width: 350px;
     height: auto;
+  }
+
+  .swiperHeaderText-pagination.swiper-pagination.swiper-pagination-bullets {
+      bottom: -60px;
   }
 
   /* Arrival*/
@@ -218,6 +226,18 @@
   .page-shopping-cart__img img {
     width: 100px;
     height: 150px;
+  }
+
+  /* About us page */
+  .article__title, .article__content {
+    text-align: center;
+  }
+
+  .article, 
+  .article:nth-child(even) {
+    flex-direction: column;
+    column-gap: unset;
+    row-gap: 40px;
   }
 
 }

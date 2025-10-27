@@ -1,3 +1,11 @@
+@media(max-width: 1380px) {
+  .header__image-less:last-child, .header__image-less:first-child {
+    display: none;
+  }
+
+}
+
+
 /* Tablet-big*/
 @media (max-width: 1200px) {
   .h1 {
@@ -56,10 +64,6 @@
 
   .swiper.swiperHeaderText {
     width: 450px;
-  }
-
-  .header__image-less:last-child, .header__image-less:first-child {
-    display: none;
   }
 
   /* Arrival*/
